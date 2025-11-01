@@ -18,7 +18,7 @@ class PerceptronTrainer:
         self.weights = self._rng.uniform(-1, 1, 3)
         
         # Generate n random points in the unit square [0, 1] x [0, 1]
-        self.points = self._rng.random(size=(n, 2)) # This is the S that is mentioned in assignment pdf.
+        self.points = self._rng.random(size=(n, 2)) # This is the S that is mentioned in the assignment pdf.
 
         # Create a random separating line and classify the points
         self.a = self._rng.random()
@@ -47,16 +47,17 @@ class PerceptronTrainer:
 
         return labels
 
-    def train(self, epoch_limit: int=300) -> tuple[int, list[int]]:
+    def train(self) -> tuple[int, list[int]]:
         """
-        Trains the perceptron on the generated data until it converges. To prevent an infinite
-        loop or extremely slow convergence, an epoch limit is used. Convergence is achieved when
+        Trains the perceptron on the generated data until it converges. Since the data 
+         is linearly separable, it is guaranteed that the convergence will be achieved.
+         Only the number of iterations will differ. Convergence is achieved when
         there are no misclassified points in an entire epoch.
         """
         epoch = 0
         misclassifications_history = []
 
-        for epoch in range(epoch_limit):
+        while True:
             misclassified_count = 0
             # Iterate through all data points in each epoch
             for i in range(self.n):
@@ -80,8 +81,7 @@ class PerceptronTrainer:
             # The algorithm has converged if no points were misclassified in this epoch
             if misclassified_count == 0:
                 break
-        else:
-            print(f"Warning: Reached epoch limit of {epoch_limit} without convergence.")
+
 
         return epoch, misclassifications_history
 
