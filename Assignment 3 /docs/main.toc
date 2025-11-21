@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Methodology}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Data Preprocessing}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Network Architecture}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Activation Functions}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Backpropagation Algorithm}{2}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Online Learning}{3}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.2}Batch Learning}{4}{subsubsection.2.4.2}%
+\contentsline {section}{\numberline {3}Hyperparameters and Experimental Setup}{5}{section.3}%
+\contentsline {section}{\numberline {4}Results and Discussion}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Eight Hyperparameter Combinations with Online Learning}{6}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}First Combination $n$=400, $\eta $=0.01, Case 1 Activation Function}{6}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Second Combination $n$=400, $\eta $=0.03, Case 1 Activation Function}{8}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Third Combination $n$=400, $\eta $=0.01, Case 2 Activation Function}{10}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Fourth Combination $n$=400, $\eta $=0.03, Case 2 Activation Function}{12}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Fifth Combination $n$=800, $\eta $=0.01, Case 1 Activation Function}{14}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Sixth Combination $n$=800, $\eta $=0.03, Case 1 Activation Function}{16}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Seventh Combination $n$=800, $\eta $=0.03, Case 1 Activation Function}{18}{subsubsection.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.1.8}Eighth Combination $n$=800, $\eta $=0.03, Case 2 Activation Function}{20}{subsubsection.4.1.8}%
+\contentsline {subsection}{\numberline {4.2}Overall Analysis of Online Learning Experiments}{22}{subsection.4.2}%
+\contentsline {paragraph}{Effect of Hidden Layer Size:}{22}{section*.27}%
+\contentsline {paragraph}{Effect of Activation Function:}{22}{section*.28}%
+\contentsline {paragraph}{Effect of Learning Rate:}{22}{section*.29}%
+\contentsline {paragraph}{Best Configuration Analysis:}{22}{section*.30}%
+\contentsline {subsection}{\numberline {4.3}Best Hyperparameter Combination Used in Batch Learning}{23}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}Batch size B=20}{23}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Batch size B=200}{25}{subsubsection.4.3.2}%
+\contentsline {section}{\numberline {5}Conclusion}{26}{section.5}%
